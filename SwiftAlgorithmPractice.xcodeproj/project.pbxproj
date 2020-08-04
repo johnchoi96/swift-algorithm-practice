@@ -34,7 +34,6 @@
 		D2ED47A624D90C04002FADA1 /* SwiftAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ED47A924D90C04002FADA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
-		D2ED47BB24D90C50002FADA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftAlgorithmPracticeTest/BinarySearchTreeTest/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +95,6 @@
 			children = (
 				D2ED47B224D90C24002FADA1 /* BinarySearchTree */,
 				D2ED47A924D90C04002FADA1 /* main.swift */,
-				D2ED47BB24D90C50002FADA1 /* Info.plist */,
 			);
 			path = SwiftAlgorithmPractice;
 			sourceTree = "<group>";

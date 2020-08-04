@@ -43,7 +43,7 @@ class BinaryTree<E: Comparable> {
     }
     
     func getMin() -> E? {
-        return root == nil ? nil : findMin(current: root!)
+        return root == nil ? nil : findMin(current: root!).data
     }
 }
 
@@ -99,11 +99,11 @@ extension BinaryTree {
         return found
     }
     
-    private func findMin(current: Node<E>) -> E {
+    private func findMin(current: Node<E>) -> Node<E> {
         var node = current
         while node.left != nil {
             node = node.left!
         }
-        return node.data
+        return node
     }
 }

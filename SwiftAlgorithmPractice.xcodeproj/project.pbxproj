@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2BE666F24D90F330047FA97 /* BinarySearchTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE666E24D90F330047FA97 /* BinarySearchTreeTest.swift */; };
+		D2BE667124D90F6F0047FA97 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */; };
 		D2ED47AA24D90C04002FADA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47A924D90C04002FADA1 /* main.swift */; };
 		D2ED47B124D90C14002FADA1 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */; };
-		D2ED47BA24D90C50002FADA1 /* BinarySearchTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B924D90C50002FADA1 /* BinarySearchTreeTest.swift */; };
-		D2ED47BF24D90C7A002FADA1 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,23 +26,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D2BE666624D90F1F0047FA97 /* SwiftAlgorithmPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BE666A24D90F1F0047FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BE666E24D90F330047FA97 /* BinarySearchTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTest.swift; sourceTree = "<group>"; };
 		D2ED47A624D90C04002FADA1 /* SwiftAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ED47A924D90C04002FADA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
-		D2ED47B724D90C50002FADA1 /* BinarySearchTreeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchTreeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2ED47B924D90C50002FADA1 /* BinarySearchTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTest.swift; sourceTree = "<group>"; };
-		D2ED47BB24D90C50002FADA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ED47BB24D90C50002FADA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftAlgorithmPracticeTest/BinarySearchTreeTest/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2ED47A324D90C04002FADA1 /* Frameworks */ = {
+		D2BE666324D90F1F0047FA97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2ED47B424D90C50002FADA1 /* Frameworks */ = {
+		D2ED47A324D90C04002FADA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,11 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2BE666724D90F1F0047FA97 /* SwiftAlgorithmPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2BE666A24D90F1F0047FA97 /* Info.plist */,
+				D2BE667024D90F3B0047FA97 /* BinarySearchTreeTest */,
+			);
+			path = SwiftAlgorithmPracticeTests;
+			sourceTree = "<group>";
+		};
+		D2BE667024D90F3B0047FA97 /* BinarySearchTreeTest */ = {
+			isa = PBXGroup;
+			children = (
+				D2BE666E24D90F330047FA97 /* BinarySearchTreeTest.swift */,
+			);
+			path = BinarySearchTreeTest;
+			sourceTree = "<group>";
+		};
 		D2ED479D24D90C04002FADA1 = {
 			isa = PBXGroup;
 			children = (
 				D2ED47A824D90C04002FADA1 /* SwiftAlgorithmPractice */,
-				D2ED47B824D90C50002FADA1 /* SwiftAlgorithmPracticeTest */,
+				D2BE666724D90F1F0047FA97 /* SwiftAlgorithmPracticeTests */,
 				D2ED47A724D90C04002FADA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				D2ED47A624D90C04002FADA1 /* SwiftAlgorithmPractice */,
-				D2ED47B724D90C50002FADA1 /* BinarySearchTreeTest.xctest */,
+				D2BE666624D90F1F0047FA97 /* SwiftAlgorithmPracticeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,40 +91,41 @@
 		D2ED47A824D90C04002FADA1 /* SwiftAlgorithmPractice */ = {
 			isa = PBXGroup;
 			children = (
-				D2ED47B224D90C24002FADA1 /* BinaryTree */,
+				D2ED47B224D90C24002FADA1 /* BinarySearchTree */,
 				D2ED47A924D90C04002FADA1 /* main.swift */,
+				D2ED47BB24D90C50002FADA1 /* Info.plist */,
 			);
 			path = SwiftAlgorithmPractice;
 			sourceTree = "<group>";
 		};
-		D2ED47B224D90C24002FADA1 /* BinaryTree */ = {
+		D2ED47B224D90C24002FADA1 /* BinarySearchTree */ = {
 			isa = PBXGroup;
 			children = (
 				D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */,
 			);
-			path = BinaryTree;
-			sourceTree = "<group>";
-		};
-		D2ED47B824D90C50002FADA1 /* SwiftAlgorithmPracticeTest */ = {
-			isa = PBXGroup;
-			children = (
-				D2ED47BB24D90C50002FADA1 /* Info.plist */,
-				D2ED47C024D90C85002FADA1 /* BinaryTreeTest */,
-			);
-			path = SwiftAlgorithmPracticeTest;
-			sourceTree = "<group>";
-		};
-		D2ED47C024D90C85002FADA1 /* BinaryTreeTest */ = {
-			isa = PBXGroup;
-			children = (
-				D2ED47B924D90C50002FADA1 /* BinarySearchTreeTest.swift */,
-			);
-			path = BinaryTreeTest;
+			path = BinarySearchTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D2BE666524D90F1F0047FA97 /* SwiftAlgorithmPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BE666B24D90F1F0047FA97 /* Build configuration list for PBXNativeTarget "SwiftAlgorithmPracticeTests" */;
+			buildPhases = (
+				D2BE666224D90F1F0047FA97 /* Sources */,
+				D2BE666324D90F1F0047FA97 /* Frameworks */,
+				D2BE666424D90F1F0047FA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAlgorithmPracticeTests;
+			productName = SwiftAlgorithmPracticeTests;
+			productReference = D2BE666624D90F1F0047FA97 /* SwiftAlgorithmPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D2ED47A524D90C04002FADA1 /* SwiftAlgorithmPractice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2ED47AD24D90C04002FADA1 /* Build configuration list for PBXNativeTarget "SwiftAlgorithmPractice" */;
@@ -124,23 +143,6 @@
 			productReference = D2ED47A624D90C04002FADA1 /* SwiftAlgorithmPractice */;
 			productType = "com.apple.product-type.tool";
 		};
-		D2ED47B624D90C50002FADA1 /* BinarySearchTreeTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2ED47BC24D90C50002FADA1 /* Build configuration list for PBXNativeTarget "BinarySearchTreeTest" */;
-			buildPhases = (
-				D2ED47B324D90C50002FADA1 /* Sources */,
-				D2ED47B424D90C50002FADA1 /* Frameworks */,
-				D2ED47B524D90C50002FADA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BinarySearchTreeTest;
-			productName = BinarySearchTreeTest;
-			productReference = D2ED47B724D90C50002FADA1 /* BinarySearchTreeTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,10 +153,10 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "John Choi";
 				TargetAttributes = {
-					D2ED47A524D90C04002FADA1 = {
+					D2BE666524D90F1F0047FA97 = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					D2ED47B624D90C50002FADA1 = {
+					D2ED47A524D90C04002FADA1 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -173,13 +175,13 @@
 			projectRoot = "";
 			targets = (
 				D2ED47A524D90C04002FADA1 /* SwiftAlgorithmPractice */,
-				D2ED47B624D90C50002FADA1 /* BinarySearchTreeTest */,
+				D2BE666524D90F1F0047FA97 /* SwiftAlgorithmPracticeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2ED47B524D90C50002FADA1 /* Resources */ = {
+		D2BE666424D90F1F0047FA97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,6 +191,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D2BE666224D90F1F0047FA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BE667124D90F6F0047FA97 /* BinarySearchTree.swift in Sources */,
+				D2BE666F24D90F330047FA97 /* BinarySearchTreeTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2ED47A224D90C04002FADA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,18 +209,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2ED47B324D90C50002FADA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2ED47BF24D90C7A002FADA1 /* BinarySearchTree.swift in Sources */,
-				D2ED47BA24D90C50002FADA1 /* BinarySearchTreeTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D2BE666C24D90F1F0047FA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = SwiftAlgorithmPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.SwiftAlgorithmPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2BE666D24D90F1F0047FA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				INFOPLIST_FILE = SwiftAlgorithmPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.SwiftAlgorithmPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D2ED47AB24D90C04002FADA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -329,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2JDGUK4DRH;
 				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftAlgorithmPracticeTest/BinarySearchTreeTest/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -340,42 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2JDGUK4DRH;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		D2ED47BD24D90C50002FADA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2JDGUK4DRH;
-				INFOPLIST_FILE = BinarySearchTreeTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.BinarySearchTreeTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D2ED47BE24D90C50002FADA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2JDGUK4DRH;
-				INFOPLIST_FILE = BinarySearchTreeTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.johnchoi96.BinarySearchTreeTest;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftAlgorithmPracticeTest/BinarySearchTreeTest/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -384,6 +388,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D2BE666B24D90F1F0047FA97 /* Build configuration list for PBXNativeTarget "SwiftAlgorithmPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BE666C24D90F1F0047FA97 /* Debug */,
+				D2BE666D24D90F1F0047FA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2ED47A124D90C04002FADA1 /* Build configuration list for PBXProject "SwiftAlgorithmPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -398,15 +411,6 @@
 			buildConfigurations = (
 				D2ED47AE24D90C04002FADA1 /* Debug */,
 				D2ED47AF24D90C04002FADA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2ED47BC24D90C50002FADA1 /* Build configuration list for PBXNativeTarget "BinarySearchTreeTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2ED47BD24D90C50002FADA1 /* Debug */,
-				D2ED47BE24D90C50002FADA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -75,4 +75,25 @@ class BinaryTreeTest: XCTestCase {
         XCTAssertTrue(intBt.contains(for: 6))
         XCTAssertFalse(intBt.contains(for: 10))
     }
+    
+    func testGetMinString() throws {
+        XCTAssert(stringBt.size == 0)
+        
+        stringBt.insert(data: "Hello")
+        stringBt.insert(data: "World")
+        
+        XCTAssertEqual(stringBt.getMin()!, "Hello")
+    }
+    
+    func testGetMinInt() throws {
+        intBt.insert(data: 5)
+        intBt.insert(data: 3)
+        intBt.insert(data: 2)
+        intBt.insert(data: 7)
+        intBt.insert(data: 8)
+        intBt.insert(data: 4)
+        intBt.insert(data: 6)
+        
+        XCTAssertEqual(intBt.getMin()!, 2)
+    }
 }

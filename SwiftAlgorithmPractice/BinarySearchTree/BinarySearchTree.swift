@@ -41,12 +41,16 @@ class BinaryTree<E: Comparable> {
     func contains(for data: E) -> Bool {
         return root == nil ? false : find(current: root!, for: data)
     }
+    
+    func getMin() -> E? {
+        return root == nil ? nil : findMin(current: root!)
+    }
 }
 
 extension BinaryTree {
     
     private func add(root: Node<E>, node: Node<E>) {
-        if root.data > node.data {
+        if root.data < node.data {
             // go right
             if let right = root.right {
                 add(root: right, node: node)
@@ -81,7 +85,7 @@ extension BinaryTree {
             return true
         }
         var found = false
-        if current.data > data {
+        if current.data < data {
             // search right
             if let right = current.right {
                 found = find(current: right, for: data)
@@ -93,5 +97,13 @@ extension BinaryTree {
             }
         }
         return found
+    }
+    
+    private func findMin(current: Node<E>) -> E {
+        var node = current
+        while node.left != nil {
+            node = node.left!
+        }
+        return node.data
     }
 }

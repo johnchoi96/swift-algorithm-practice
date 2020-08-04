@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D2BE666F24D90F330047FA97 /* BinarySearchTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE666E24D90F330047FA97 /* BinarySearchTreeTest.swift */; };
 		D2BE667124D90F6F0047FA97 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */; };
+		D2BE667324D90FA60047FA97 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D2BE667224D90FA60047FA97 /* README.md */; };
 		D2ED47AA24D90C04002FADA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47A924D90C04002FADA1 /* main.swift */; };
 		D2ED47B124D90C14002FADA1 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		D2BE666624D90F1F0047FA97 /* SwiftAlgorithmPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BE666A24D90F1F0047FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BE666E24D90F330047FA97 /* BinarySearchTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTest.swift; sourceTree = "<group>"; };
+		D2BE667224D90FA60047FA97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2ED47A624D90C04002FADA1 /* SwiftAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ED47A924D90C04002FADA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2ED47B024D90C14002FADA1 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		D2ED479D24D90C04002FADA1 = {
 			isa = PBXGroup;
 			children = (
+				D2BE667224D90FA60047FA97 /* README.md */,
 				D2ED47A824D90C04002FADA1 /* SwiftAlgorithmPractice */,
 				D2BE666724D90F1F0047FA97 /* SwiftAlgorithmPracticeTests */,
 				D2ED47A724D90C04002FADA1 /* Products */,
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BE667324D90FA60047FA97 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
